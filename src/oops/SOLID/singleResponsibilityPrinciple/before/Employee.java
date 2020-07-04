@@ -28,12 +28,7 @@ public abstract class Employee {
                 "@globomanticshr.com";
     }
 
-    @Override
-    public String toString() {
-        return this.firstName + " " +
-                this.lastName + " - " +
-                this.monthlyIncome;
-    }
+   
 
     public int getMonthlyIncome() {
         return monthlyIncome;
